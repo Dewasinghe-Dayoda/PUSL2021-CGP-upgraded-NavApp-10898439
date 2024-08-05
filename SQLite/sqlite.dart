@@ -5,12 +5,12 @@ import 'package:navapp/JsonModels/users.dart';
 class DatabaseHelper {
   final databaseName = "navapp.db";
   
-  //Now we must create our user table into our sqlite db
+
 
   String users =
       "create table users (usrId INTEGER PRIMARY KEY AUTOINCREMENT, usrName TEXT UNIQUE, usrPassword TEXT)";
 
-  //We are done in this section
+
 
   Future<Database> initDB() async {
     final databasePath = await getDatabasesPath();
@@ -21,7 +21,7 @@ class DatabaseHelper {
     });
   }
 
-  //Now we create login and sign up method
+
   
 
   
