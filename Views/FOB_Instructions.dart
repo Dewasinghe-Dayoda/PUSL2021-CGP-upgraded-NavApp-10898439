@@ -5,7 +5,7 @@ import 'package:navapp/Views/FOB_Lecture_Halls.dart';
 import 'package:navapp/Views/FOB_Open_Area.dart';
 import 'package:navapp/Views/FOB_Study_Rooms.dart';
 import 'package:navapp/Views/FOC_Computer_Labs.dart';
-import 'package:navapp/Views/FOC_Open_Area.dart';
+import 'package:navapp/Views/OfficeRooms.dart';
 
 
 class FOB_Instructions extends StatelessWidget {
@@ -118,7 +118,7 @@ class FOB_Instructions extends StatelessWidget {
                 style: TextStyle(fontSize: 20),
               ),
             ),
-          ),
+          ),*/
           const SizedBox(height: 20), // space between the buttons
           SizedBox(
             width: 200,
@@ -139,7 +139,7 @@ class FOB_Instructions extends StatelessWidget {
             ),
           ),
 
-          */
+
         ],
       ),
     );

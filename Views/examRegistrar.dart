@@ -1,21 +1,15 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-import '../models/building_model.dart';
 
-class MainCafeteria extends StatelessWidget {
-  final Building building;
-
-  const MainCafeteria({
-    super.key,
-    required this.building,
-  });
+class exam_Registrar extends StatelessWidget {
+  const exam_Registrar({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Main Cafeteria'),
+        title: const Text('Exam Registrar'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -23,14 +17,14 @@ class MainCafeteria extends StatelessWidget {
           children: [
             Center(
               child: Image.asset(
-                'lib/assets/Main Cafeteria.jpg',
+                'lib/assets/exam registrar.jpeg',
                 width: 200,
                 height: 200,
               ),
             ),
             const SizedBox(height: 20),
             const Text(
-              'Instructions:',
+              'Ms.Poyumi Jayalath',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
@@ -39,19 +33,19 @@ class MainCafeteria extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the Admin Building.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 2: Go to 2 nd floor.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: Turn Left.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
                   ),
                 ],
               ),
@@ -62,3 +56,4 @@ class MainCafeteria extends StatelessWidget {
     );
   }
 }
+

@@ -1,4 +1,6 @@
 
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:navapp/Views/ServiceFinder.dart';
 import 'package:navapp/Views/home.dart';

@@ -1,11 +1,9 @@
-// ignore_for_file: use_super_parameters
-
 import 'package:flutter/material.dart';
 import 'package:navapp/Views/instructions.dart';
 import 'package:navapp/pages/maps.dart';
 
 class Event2Screen extends StatelessWidget {
-  const Event2Screen({Key? key}) : super(key: key);
+  const Event2Screen({super.key});
 
   @override
   Widget build(BuildContext context) {

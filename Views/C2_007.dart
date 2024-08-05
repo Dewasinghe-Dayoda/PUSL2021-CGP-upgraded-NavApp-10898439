@@ -41,11 +41,11 @@ class C2_007 extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: Walk stright in the corridor'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 4: Lab is at the end of the corridor.'),
                   ),
                 ],
               ),

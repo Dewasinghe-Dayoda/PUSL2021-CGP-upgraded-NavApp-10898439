@@ -1,21 +1,19 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
-import 'package:navapp/Views/Dean.dart';
-import 'package:navapp/Views/RestRooms.dart';
-import 'package:navapp/Views/StudyRooms.dart';
-import 'package:navapp/Views/VC.dart';
-import 'package:navapp/Views/departmentHd.dart';
-import 'package:navapp/Views/examRegistrar.dart';
+import 'package:navapp/Views/dean1.dart';
+import 'package:navapp/Views/dean2.dart';
+import 'package:navapp/Views/dean3.dart';
+import 'package:navapp/Views/dean4.dart';
+import 'package:navapp/Views/dean5.dart';
 
-class OfficeRooms extends StatelessWidget {
-  const OfficeRooms({super.key});
+
+class Dean extends StatelessWidget {
+  const Dean({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Office Rooms"),
+        title: const Text("Faculty Deans"),
       ),
       body: content(context),
     );
@@ -33,18 +31,95 @@ class OfficeRooms extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const VC(),
+                    builder: (context) =>  const dean1(),
                   ),
                 );
               },
               child: const Text(
-                "Vice Chancellor",
+                "Dean-FOC",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 20),
+          SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const dean2(),
+                  ),
+                );
+              },
+              child: const Text(
+                "Dean-FOB",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const dean3(),
+                  ),
+                );
+              },
+              child: const Text(
+                "Dean-FOP",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const dean4(),
+                  ),
+                );
+              },
+              child: const Text(
+                "Dean-FOE",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+           SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const dean5(),
+                  ),
+                );
+              },
+              child: const Text(
+                "Dean-FOS",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
           const SizedBox(height: 20), // space between the buttons
-          SizedBox(
+          /*SizedBox(
             width: 200,
             height: 60,
             child: ElevatedButton(
@@ -52,74 +127,18 @@ class OfficeRooms extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const Dean(),
+                    builder: (context) => const OfficeRooms(),
                   ),
                 );
               },
               child: const Text(
-                "Dean",
+                "Office Rooms",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          const SizedBox(height: 20),
-          SizedBox(
-            width: 200,
-            height: 60,
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const departmentHd(),
-                  ),
-                );
-              },
-              child: const Text(
-                "Department.Hd",
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
-          ),
-          const SizedBox(height: 20),
-          SizedBox(
-            width: 200,
-            height: 60,
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const exam_Registrar(),
-                  ),
-                );
-              },
-              child: const Text(
-                "Exam Registrar",
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
-          ),
-          /*const SizedBox(height: 20),
-          SizedBox(
-            width: 200,
-            height: 60,
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const RestRooms(),
-                  ),
-                );
-              },
-              child: const Text(
-                "Dep Secretary",
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
-          ),*/
 
+          */
         ],
       ),
     );

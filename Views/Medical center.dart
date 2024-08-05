@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class MedicalCenter extends StatelessWidget {
@@ -7,7 +9,7 @@ class MedicalCenter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('MedicalCenter'),
+        title: const Text('MedicalCenter'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -20,15 +22,15 @@ class MedicalCenter extends StatelessWidget {
                 height: 200,
               ),
             ),
-            SizedBox(height: 20),
-            Text(
+            const SizedBox(height: 20),
+            const Text(
               'Instructions:',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Expanded(
               child: ListView(
-                children: [
+                children: const [
                   ListTile(
                     leading: Icon(Icons.check),
                     title: Text('Step 1: Go to the ground floor.'),

@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, file_names, prefer_const_literals_to_create_immutables, camel_case_types
+// ignore_for_file: file_names, camel_case_types
 
 import 'package:flutter/material.dart';
 
@@ -9,7 +9,7 @@ class C2_009 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('C2_009'),
+        title: const Text('C2_009'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -22,30 +22,30 @@ class C2_009 extends StatelessWidget {
                 height: 200,
               ),
             ),
-            SizedBox(height: 20),
-            Text(
+            const SizedBox(height: 20),
+            const Text(
               'Instructions:',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Expanded(
               child: ListView(
-                children: [
+                children: const [
                   ListTile(
                     leading: Icon(Icons.check),
                     title: Text('Step 1: Go to the ground floor.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 2: Turn left.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: Walk towards the corridor.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 4: Turn left. After the stairs turn right'),
                   ),
                 ],
               ),

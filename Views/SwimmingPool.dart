@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import '../models/building_model.dart';
 
@@ -5,9 +7,9 @@ class SwimmingPool extends StatelessWidget {
   final Building building;
 
   const SwimmingPool({
-    Key? key,
+    super.key,
     required this.building,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

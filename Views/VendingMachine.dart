@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class VendingMachine extends StatelessWidget {
@@ -28,20 +30,20 @@ class VendingMachine extends StatelessWidget {
             const SizedBox(height: 10),
             Expanded(
               child: ListView(
-                children: [
-                  const ListTile(
+                children: const [
+                  ListTile(
                     leading: Icon(Icons.check),
                     title: Text('Step 1: Go to the ground floor.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.check),
                     title: Text('Step 2: Go to B1.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.check),
                     title: Text('Step 3: Turn Left.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.check),
                     title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
                   ),

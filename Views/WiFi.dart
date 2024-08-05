@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:navapp/Views/Student%20Center.dart';
 import 'package:navapp/Views/home.dart';

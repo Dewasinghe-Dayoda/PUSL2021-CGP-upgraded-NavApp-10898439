@@ -1,4 +1,6 @@
 
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:navapp/Views/AC.dart';
 import 'package:navapp/Views/ATM.dart';
@@ -14,7 +16,7 @@ class ServiceFinder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Service Finder"),
+        title: const Text("Service Finder"),
       ),
       body: content(context),
     );
@@ -37,13 +39,13 @@ class ServiceFinder extends StatelessWidget {
                   ),
                 );
               },
-              child: Text(
+              child: const Text(
                 "ATM",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          SizedBox(height: 20), // space between the buttons
+          const SizedBox(height: 20), // space between the buttons
           SizedBox(
             width: 200,
             height: 60,
@@ -56,13 +58,13 @@ class ServiceFinder extends StatelessWidget {
                   ),
                 );
               },
-              child: Text(
+              child: const Text(
                 "Medical Center",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           SizedBox(
             width: 200,
             height: 60,
@@ -75,13 +77,13 @@ class ServiceFinder extends StatelessWidget {
                   ),
                 );
               },
-              child: Text(
+              child: const Text(
                 "Dining services",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           SizedBox(
             width: 200,
             height: 60,
@@ -94,13 +96,13 @@ class ServiceFinder extends StatelessWidget {
                   ),
                 );
               },
-              child: Text(
+              child: const Text(
                 "WiFi",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           SizedBox(
             width: 200,
             height: 60,
@@ -113,13 +115,13 @@ class ServiceFinder extends StatelessWidget {
                   ),
                 );
               },
-              child: Text(
+              child: const Text(
                 "AC",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           SizedBox(
             width: 200,
             height: 60,
@@ -132,7 +134,7 @@ class ServiceFinder extends StatelessWidget {
                   ),
                 );
               },
-              child: Text(
+              child: const Text(
                 "NSBM Shop",
                 style: TextStyle(fontSize: 20),
               ),

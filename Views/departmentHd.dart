@@ -1,21 +1,16 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
-import 'package:navapp/Views/Dean.dart';
-import 'package:navapp/Views/RestRooms.dart';
-import 'package:navapp/Views/StudyRooms.dart';
-import 'package:navapp/Views/VC.dart';
-import 'package:navapp/Views/departmentHd.dart';
-import 'package:navapp/Views/examRegistrar.dart';
+import 'package:navapp/Views/dhead1.dart';
+import 'package:navapp/Views/dhead2.dart';
 
-class OfficeRooms extends StatelessWidget {
-  const OfficeRooms({super.key});
+
+class departmentHd extends StatelessWidget {
+  const departmentHd({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Office Rooms"),
+        title: const Text("Head of Department"),
       ),
       body: content(context),
     );
@@ -33,35 +28,17 @@ class OfficeRooms extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const VC(),
+                    builder: (context) =>  const dhead1(),
                   ),
                 );
               },
               child: const Text(
-                "Vice Chancellor",
+                "FOC",
                 style: TextStyle(fontSize: 20),
               ),
             ),
           ),
-          const SizedBox(height: 20), // space between the buttons
-          SizedBox(
-            width: 200,
-            height: 60,
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const Dean(),
-                  ),
-                );
-              },
-              child: const Text(
-                "Dean",
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
-          ),
+
           const SizedBox(height: 20),
           SizedBox(
             width: 200,
@@ -71,31 +48,12 @@ class OfficeRooms extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const departmentHd(),
+                    builder: (context) => const dhead2(),
                   ),
                 );
               },
               child: const Text(
-                "Department.Hd",
-                style: TextStyle(fontSize: 20),
-              ),
-            ),
-          ),
-          const SizedBox(height: 20),
-          SizedBox(
-            width: 200,
-            height: 60,
-            child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const exam_Registrar(),
-                  ),
-                );
-              },
-              child: const Text(
-                "Exam Registrar",
+                "FOB",
                 style: TextStyle(fontSize: 20),
               ),
             ),
@@ -109,17 +67,75 @@ class OfficeRooms extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const RestRooms(),
+                    builder: (context) => const dhead3(),
                   ),
                 );
               },
               child: const Text(
-                "Dep Secretary",
+                "FOP",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-          ),*/
+          ),
+          const SizedBox(height: 20),
+          SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const dhead4(),
+                  ),
+                );
+              },
+              child: const Text(
+                "FOE",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const dhead5(),
+                  ),
+                );
+              },
+              child: const Text(
+                "FOS",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+          const SizedBox(height: 20), // space between the buttons
+          SizedBox(
+            width: 200,
+            height: 60,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const OfficeRooms(),
+                  ),
+                );
+              },
+              child: const Text(
+                "Office Rooms",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
 
+          */
         ],
       ),
     );
