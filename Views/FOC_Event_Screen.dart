@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/building_model.dart';
+import 'foc_event_detail.dart';
 
 class FOCEventsScreen extends StatelessWidget {
   final Building building;
@@ -11,12 +12,97 @@ class FOCEventsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Sample events for demonstration
+    final List<Map<String, String>> events = [
+      {
+        'title': 'ICTAR 2024 – International Conference on Transformative Applied Research 2024',
+        'image1': 'lib/assets/focevents1.jpg',
+        'image2': 'lib/assets/focevents3.webp',
+        'details': 'Details about ICTAR 2024...'
+      },
+      {
+        'title': 'International Conference on Advanced Computing Technologies 2024',
+        'image1': 'lib/assets/focevents2.jpg',
+        'image2': 'lib/assets/focevents4.jpg',
+        'details': 'Details about Advanced Computing Technologies 2024...'
+      },
+      {
+        'title': 'Technology Innovations & Digitalization Accompanying Creativity (TIDAC) Research Symposium',
+        'image1': 'lib/assets/focevents5.jpg',
+        'image2': 'lib/assets/FOC.jpg',
+        'details': 'Details about TIDAC Research Symposium...'
+      },
+     /* {
+        'title': 'Lunch at 12 PM',
+        'image1': 'assets/event4.jpg',
+        'image2': 'assets/event4_2.jpg',
+        'details': 'Details about Lunch at 12 PM...'
+      },
+      {
+        'title': 'Dinner at 7 PM',
+        'image1': 'assets/event5.jpg',
+        'image2': 'assets/event5_2.jpg',
+        'details': 'Details about Dinner at 7 PM...'
+      }*/
+    ];
+
     return Scaffold(
       appBar: AppBar(
-        title: Text("${building.name} "),
+        title: Text("${building.name} Events"),
       ),
-      body: Center(
-        child: Text("Event details for ${building.name}"),
+      body: ListView.builder(
+        padding: const EdgeInsets.all(16.0),
+        itemCount: events.length,
+        itemBuilder: (context, index) {
+          final event = events[index];
+          return GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => FOC_Event_Detail(event: event),
+                ),
+              );
+            },
+            child: Container(
+              height: 200, // Fixed height for each event block
+              margin: const EdgeInsets.only(bottom: 16.0),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12.0),
+                image: DecorationImage(
+                  image: AssetImage(event['image1']!),
+                  fit: BoxFit.cover,
+                ),
+              ),
+              child: Stack(
+                children: [
+                  Positioned(
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    child: Container(
+                      padding: const EdgeInsets.all(16.0),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withOpacity(0.6),
+                        borderRadius: const BorderRadius.only(
+                          bottomLeft: Radius.circular(12.0),
+                          bottomRight: Radius.circular(12.0),
+                        ),
+                      ),
+                      child: Text(
+                        event['title']!,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16.0,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          );
+        },
       ),
     );
   }
