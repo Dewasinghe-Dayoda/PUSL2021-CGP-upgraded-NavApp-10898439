@@ -33,19 +33,19 @@ class HostelCanteen extends StatelessWidget {
                 children: [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to Hostel complex building.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('Step 2: Go to the ground floor.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Turn Left.'),
+                    title: Text('Step 3: Walk straight.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('Step 4: Go down by the stairs.'),
                   ),
                 ],
               ),

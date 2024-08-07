@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:navapp/Views/dhead1.dart';
 import 'package:navapp/Views/dhead2.dart';
@@ -21,7 +23,7 @@ class departmentHd extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
@@ -41,7 +43,7 @@ class departmentHd extends StatelessWidget {
 
           const SizedBox(height: 20),
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {

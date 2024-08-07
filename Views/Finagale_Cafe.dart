@@ -33,7 +33,7 @@ class Finagale_Cafe extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the ground floor of FOC'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
@@ -41,11 +41,11 @@ class Finagale_Cafe extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Turn Left.'),
+                    title: Text('Step 3: Walk straight towards the exit door.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('Step 4:Finagale afe will be on yor left side riht after you pass the study room.'),
                   ),
                 ],
               ),

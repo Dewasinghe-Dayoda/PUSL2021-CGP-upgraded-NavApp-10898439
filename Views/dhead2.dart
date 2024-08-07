@@ -1,7 +1,7 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-import 'package:navapp/Views/SE.dart';
+import 'package:navapp/Views/DM.dart';
 
 class dhead2 extends StatelessWidget {
   const dhead2({super.key});
@@ -21,19 +21,19 @@ class dhead2 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) =>  const SE(),
+                    builder: (context) =>  const DM(),
                   ),
                 );
               },
               child: const Text(
-                "BSC(Hons) Software Engineering",
+                "Department of Management ",
                 style: TextStyle(fontSize: 20),
               ),
             ),

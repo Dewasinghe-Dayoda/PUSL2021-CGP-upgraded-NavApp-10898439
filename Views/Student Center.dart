@@ -18,7 +18,7 @@ class StudentCenter extends StatelessWidget {
           children: [
             Center(
               child: Image.asset(
-                'lib/assets/lecturehall.jpg',
+                'lib/assets/Student Center.jpg',
                 width: 200,
                 height: 200,
               ),
@@ -34,19 +34,19 @@ class StudentCenter extends StatelessWidget {
                 children: [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the Auditorium.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('Step 2: Turn right.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Turn Left.'),
+                    title: Text('Step 3: Go down and turn left.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('Step 4: Walk straight pass the audi canteen.'),
                   ),
                 ],
               ),

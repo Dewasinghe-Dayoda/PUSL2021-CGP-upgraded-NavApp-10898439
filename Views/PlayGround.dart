@@ -39,20 +39,17 @@ class PlayGround extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the main entrance.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 2: Face the main building/auditorium.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: turn right.'),
                   ),
-                  ListTile(
-                    leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
-                  ),
+
                 ],
               ),
             ),

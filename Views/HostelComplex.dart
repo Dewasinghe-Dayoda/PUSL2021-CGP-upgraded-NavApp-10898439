@@ -39,19 +39,15 @@ class HostelComplex extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the playground.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 2: walk straight towards FOE.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
-                  ),
-                  ListTile(
-                    leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 3: Tur right and go down from the path you meet infront of FOE right after passing the VC building.'),
                   ),
                 ],
               ),

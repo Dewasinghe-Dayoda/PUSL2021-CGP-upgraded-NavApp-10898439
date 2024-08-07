@@ -33,11 +33,11 @@ class ATM extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the auditorium.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('Step 2: Go down.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
@@ -45,7 +45,7 @@ class ATM extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('Step 4: If you walk straight pass the audi canteen and walk towards student center there will be another ATM.'),
                   ),
                 ],
               ),

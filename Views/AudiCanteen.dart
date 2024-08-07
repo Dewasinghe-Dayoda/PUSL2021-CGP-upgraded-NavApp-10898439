@@ -33,20 +33,18 @@ class AudiCanteen extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Situated in between auditorium and student center.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('Step 1: Go to the auditorium back door and walk straight towards the students center.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Turn Left.'),
+                    title: Text('Step 2: Or, Go to student Center and walk straight toward the auditorium.'),
                   ),
-                  ListTile(
-                    leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
-                  ),
+
+
                 ],
               ),
             ),

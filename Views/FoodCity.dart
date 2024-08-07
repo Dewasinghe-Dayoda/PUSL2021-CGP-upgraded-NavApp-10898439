@@ -33,11 +33,11 @@ class FoodCity extends StatelessWidget {
                 children: [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to auditorium and turn right'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('Step 2: Go one floor down'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
@@ -45,7 +45,7 @@ class FoodCity extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('Step 4: Food city is right there!'),
                   ),
                 ],
               ),

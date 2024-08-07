@@ -39,7 +39,7 @@ class OpenTheatre extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the auditorium.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
@@ -47,11 +47,11 @@ class OpenTheatre extends StatelessWidget {
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: Go down and turn left.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 4: walk straight and turn right at the back door of auditorium.'),
                   ),
                 ],
               ),

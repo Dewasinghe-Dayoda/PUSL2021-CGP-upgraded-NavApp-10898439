@@ -39,20 +39,17 @@ class Auditorum extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to main entrance.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 2: Walk in to the main building.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: Turn left.'),
                   ),
-                  ListTile(
-                    leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
-                  ),
+
                 ],
               ),
             ),

@@ -34,7 +34,7 @@ class Canteen extends StatelessWidget {
             const Text('WiFi Connection is Available'),
             const SizedBox(height: 20),
             SizedBox(
-              width: 200,
+              width: 350,
               height: 60,
               child: ElevatedButton(
                 onPressed: () {
@@ -46,14 +46,14 @@ class Canteen extends StatelessWidget {
                   );
                 },
                 child: const Text(
-                  "Edge Cateen",
+                  "Edge Canteen",
                   style: TextStyle(fontSize: 20),
                 ),
               ),
             ),
             const SizedBox(height: 20), //space between the buttons
             SizedBox(
-              width: 200, //
+              width: 350, //
               height: 60, //
               child: ElevatedButton(
                 onPressed: () {
@@ -72,7 +72,7 @@ class Canteen extends StatelessWidget {
             ),
             const SizedBox(height: 20), //space between the buttons
             SizedBox(
-              width: 200, //
+              width: 350, //
               height: 60, //
               child: ElevatedButton(
                 onPressed: () {

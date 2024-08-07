@@ -24,7 +24,7 @@ class AC extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Text(
-              'Instructions:',
+              'Available places:',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
@@ -33,19 +33,23 @@ class AC extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('1:Lecture Halls.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('2:Study Rooms.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Turn Left.'),
+                    title: Text('3:Library.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('4:Computer Labs.'),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.check),
+                    title: Text('5:Auditorium.'),
                   ),
                 ],
               ),

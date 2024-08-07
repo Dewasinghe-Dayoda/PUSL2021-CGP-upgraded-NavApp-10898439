@@ -21,7 +21,7 @@ class dhead1 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
@@ -33,7 +33,7 @@ class dhead1 extends StatelessWidget {
                 );
               },
               child: const Text(
-                "BSC(Hons) Software Engineering",
+                "Department of Software Engineering & Information Systems",
                 style: TextStyle(fontSize: 20),
               ),
             ),

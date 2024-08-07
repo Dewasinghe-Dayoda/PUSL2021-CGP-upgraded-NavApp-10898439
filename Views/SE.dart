@@ -17,19 +17,19 @@ class SE extends StatelessWidget {
           children: [
             Center(
               child: Image.asset(
-                'lib/assets/vc.jpeg',
+                'lib/assets/dhead1.webp',
                 width: 200,
                 height: 200,
               ),
             ),
             const SizedBox(height: 20),
             const Text(
-              'Prof.E.A.Weerasinghe ',
+              'Dr. Mohamed Shafraz',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
             const Text(
-              'BSC(Hons)Software Engineering',
+              'Department of Software Engineering & Information Systems',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),

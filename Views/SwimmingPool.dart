@@ -39,19 +39,19 @@ class SwimmingPool extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the pond.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 2: Go in front of recreation center.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('Step 3: Walk towards the faculties from them.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 4: Turn left before vc building.'),
                   ),
                 ],
               ),

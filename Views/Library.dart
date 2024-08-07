@@ -40,19 +40,15 @@ class Library extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Situated between Admin building and student center.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('Step 1:Go in front of the pond.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
-                  ),
-                  ListTile(
-                    leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('Step 2: Choose the building between amn building and student center.'),
                   ),
                 ],
               ),

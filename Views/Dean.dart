@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:navapp/Views/dean1.dart';
 import 'package:navapp/Views/dean2.dart';
@@ -24,7 +26,7 @@ class Dean extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
@@ -44,7 +46,7 @@ class Dean extends StatelessWidget {
 
           const SizedBox(height: 20),
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
@@ -63,7 +65,7 @@ class Dean extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
@@ -82,7 +84,7 @@ class Dean extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {
@@ -101,7 +103,7 @@ class Dean extends StatelessWidget {
           ),
           const SizedBox(height: 20),
            SizedBox(
-            width: 200,
+            width: 350,
             height: 60,
             child: ElevatedButton(
               onPressed: () {

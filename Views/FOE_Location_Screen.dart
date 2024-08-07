@@ -23,7 +23,7 @@ class FOE_Locations_Screen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-              width: 200,
+              width: 350,
               height: 60,
               child: ElevatedButton(
                 onPressed: () {
@@ -39,7 +39,7 @@ class FOE_Locations_Screen extends StatelessWidget {
             const SizedBox(height: 20),
 
             SizedBox(
-              width: 200,
+              width: 350,
               height: 60,
               child: ElevatedButton(
                 onPressed: () {

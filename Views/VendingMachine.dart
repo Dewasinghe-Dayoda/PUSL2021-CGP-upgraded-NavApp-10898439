@@ -33,19 +33,23 @@ class VendingMachine extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Step 1: Go to the auditorium'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Go to B1.'),
+                    title: Text('Step 2: Turn right.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Turn Left.'),
+                    title: Text('Step 3: Go one floor down.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.Walk straight and turn left again at the front of the washroom.'),
+                    title: Text('Step 4: ATM is on your left side.'),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.check),
+                    title: Text('Step 5: If you walk straight from there towards student center, there will be another ATM on your left.'),
                   ),
                 ],
               ),

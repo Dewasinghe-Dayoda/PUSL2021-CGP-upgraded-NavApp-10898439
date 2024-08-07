@@ -39,19 +39,19 @@ class MainCafeteria extends StatelessWidget {
                 children: const [
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 1: Go to the ground floor.'),
+                    title: Text('Go to the Hostel complex.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 2: Turn right.'),
+                    title: Text('There are two canteens.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 3: Walk towards the washroom.'),
+                    title: Text('1: Inside hostel complex-Hostel canteen.'),
                   ),
                   ListTile(
                     leading: Icon(Icons.check),
-                    title: Text('Step 4: Turn left.'),
+                    title: Text('2:Outside hostel complex- The edge canteen.'),
                   ),
                 ],
               ),

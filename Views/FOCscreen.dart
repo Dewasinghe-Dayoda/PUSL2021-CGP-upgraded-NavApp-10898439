@@ -24,27 +24,36 @@ class FOCScreen extends StatelessWidget {
             padding: const EdgeInsets.all(16.0),
             child: Text(building.info),
           ),
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => FOCEventsScreen(building: building)),
-                  );
-                },
-                child: const Text("Events",
-                  style: TextStyle(fontSize: 20),),
+              SizedBox(
+                width: 350,
+                height: 60,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => FOCEventsScreen(building: building)),
+                    );
+                  },
+                  child: const Text("Events",
+                    style: TextStyle(fontSize: 20),),
+                ),
               ),
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => FOCLocationsScreen(building: building)));
-                },
-                child: const Text("Locations",
-                  style: TextStyle(fontSize: 20),),
+              const SizedBox(height: 20),
+              SizedBox(
+                width: 350,
+                height: 60,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => FOCLocationsScreen(building: building)));
+                  },
+                  child: const Text("Locations",
+                    style: TextStyle(fontSize: 20),),
+                ),
               ),
             ],
           ),

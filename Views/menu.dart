@@ -130,7 +130,7 @@ class MenuScreen extends StatelessWidget {
                   style: Theme.of(context)
                       .textTheme
                       .bodySmall!
-                      .copyWith(height: 1.75, color: Colors.white),
+                      .copyWith(height: 1.75, color: Colors.white,fontSize: 15),
                 ),
               ],
             ),

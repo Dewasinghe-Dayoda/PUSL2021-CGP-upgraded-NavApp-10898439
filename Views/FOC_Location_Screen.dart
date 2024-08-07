@@ -24,7 +24,7 @@ class FOCLocationsScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-          width: 200,
+          width: 350,
           height: 60,
               child: ElevatedButton(
                 onPressed: () {
@@ -40,7 +40,7 @@ class FOCLocationsScreen extends StatelessWidget {
             const SizedBox(height: 20),
 
             SizedBox(
-              width: 200,
+              width: 350,
               height: 60,
               child: ElevatedButton(
                 onPressed: () {
