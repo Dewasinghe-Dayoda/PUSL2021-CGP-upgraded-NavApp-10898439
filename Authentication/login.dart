@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart;
+import 'package:flutter/material.dart';
 import 'package:navapp/Authentication/signup.dart';
 import 'package:navapp/JsonModels/users.dart';
 import 'package:navapp/SQLite/sqlite.dart';
@@ -143,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         },
                         child: const Text(
                           "LOGIN",
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(color: Colors.white,fontSize: 18),
                         )),
                   ),
 
@@ -151,7 +151,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text("Don't have an account?"),
+                      const Text("Don't have an account?",style: TextStyle(fontSize: 18)),
                       TextButton(
                           onPressed: () {
                             //Navigate to sign up
@@ -160,7 +160,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 MaterialPageRoute(
                                     builder: (context) => const SignUp()));
                           },
-                          child: const Text("SIGN UP"))
+                          child: const Text("SIGN UP",style: TextStyle(fontSize: 18)))
                     ],
                   ),
 
@@ -168,7 +168,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   isLoginTrue
                       ? const Text(
                           "Username or passowrd is incorrect",
-                          style: TextStyle(color: Colors.red),
+                          style: TextStyle(color: Colors.red,fontSize: 18),
                         )
                       : const SizedBox(),
                 ],

@@ -178,7 +178,7 @@ class _SignUpState extends State<SignUp> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text("Already have an account?"),
+                      const Text("Already have an account?",style: TextStyle(fontSize: 18)),
                       TextButton(
                           onPressed: () {
                             //Navigate to sign up
@@ -187,7 +187,7 @@ class _SignUpState extends State<SignUp> {
                                 MaterialPageRoute(
                                     builder: (context) => const LoginScreen()));
                           },
-                          child: const Text("Login"))
+                          child: const Text("Login",style: TextStyle(fontSize: 18)),)
                     ],
                   )
                 ],
